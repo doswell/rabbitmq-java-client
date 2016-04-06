@@ -6,6 +6,6 @@ package com.rabbitmq.client;
  *
  * @since 3.3.0
  */
-public interface RecoveryListener {
+public interface RecoveryListener  {
     public void handleRecovery(Recoverable recoverable);
 }
